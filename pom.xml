@@ -12,21 +12,23 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   </properties>
-	<dependencies>
-	<distributionManagement>
+  <distributionManagement>
   <repository>
     <id>demo</id>
     <url>http://35.160.207.59:8081/repository/LoginApplication/</url>
   </repository>
 
 </distributionManagement>
-		<servers>
+	<servers>
   <server>
       <id>demo</id>
       <username>admin</username>
       <password>admin123</password>
     </server>
 	</servers>
+	<dependencies>
+	
+	
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>servlet-api</artifactId>
