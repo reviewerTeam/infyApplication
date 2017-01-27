@@ -19,16 +19,16 @@
   </repository>
 
 </distributionManagement>
-	<servers>
+<project>
+<servers>
   <server>
       <id>demo</id>
       <username>admin</username>
       <password>admin123</password>
     </server>
-	</servers>
+</servers>
+</project>
 	<dependencies>
-	
-	
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>servlet-api</artifactId>
